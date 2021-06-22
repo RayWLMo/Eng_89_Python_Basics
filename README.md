@@ -6,7 +6,9 @@
 ## Python Basics
 
 - print() function is used to display outcome provided in the string
-```print("Hello Raymond")```
+```python
+print("Hello Raymond")
+```
 
 # Variables
 ## Python Variables
@@ -18,7 +20,7 @@
 
 - Syntax to create a variable --> name of the variable = value of the variable
 - Follow good logical naming convention
-```
+```Python
 First_Name = "Raymond"
 Last_Name  = "Mo"
 
@@ -34,12 +36,12 @@ print(age)
 print(my_age)
 ```
 - type() can be used to find the type of variable
-```
+```Python
 print(type(age)) # will print the type of variable age
 print(type(my_age)) # will print the type of variable my_age
 ```
 - input() in python is used to interact with the user - to ask user to enter required data
-```
+```Python
 print(input("Please enter your Name "))
 
 # Alternate way to prompt user where data can be stored
@@ -52,7 +54,7 @@ print(User_Name)
 - prompt user to input above value
 - print/display the type of each value received from the user
 - display the data back to user with greeting message
-```
+```Python
 # Defining the variables
 first_name = (input("Please enter your first name:   "))
 last_name = (input("Please enter your last name:   "))
@@ -92,7 +94,7 @@ print("Hello", first_name, last_name, "! You are", age, "and were born on", DOB)
 - '!=' - Not equal to
 - '>=' - Is greater than or equal to
 - '<=' - Is less than or equal to
-```
+```Python
 number_1 = 4
 number_2 = 2
 
@@ -121,7 +123,7 @@ Lesson objectives
 - Casting Methods
 
 ## Single and Double Quotes
-```
+```Python
 single_quotes = 'These are single quotes and they work fine!'
 double_quotes = "These are double quotes and they work fine too!"
 
@@ -130,16 +132,16 @@ print(double_quotes)
 ```
 ### Adding strings together
 - Use a ' ' to include a space
-```
+```Python
 quotes = single_quotes + ' ' + double_quotes
 print(quotes)
 ```
 Or alternatively
-```
+```Python
 print(single_quotes + ' ' + double_quotes)
 ```
 ## Concatenation
-```
+```Python
 First_Name = 'James'
 Last_Name = 'Bond'
 age = 42
@@ -153,66 +155,76 @@ print(First_Name + ' ' + Last_Name +  ' ' + str(age), "years old")
 ## String Slicing and Indexing
 
 - In Python Indexing starts with 0
-```
+```Python
            #0123456789....
 greeting = "Hello World!"
                       #-1
 ```
 - len() can be used to determine the length of the string
-```
+```Python
 print(len(greeting))
 ```
 - Slicing the string from index 0 to 4 up to (not including) 5, from left to right
-```
+```Python
 print(greeting[0:5])
 ```
 - Slicing the string from index -1, from right to left
-```
+```Python
 print(greeting[-1])
 ```
 
 - For just the string "World!"
-```
+```Python
 print(greeting[6:])
 ```
 Or Alternatively
-```
+```Python
 print(greeting[-6:])
 ```
 ## String Built-In Methods
 
 ### Removing White Spaces
-```
+```Python
 white_spaces = "Example of white spaces:                        "
 print(len(white_spaces)) # len() counts white spaces as well as characters
 print(white_spaces + " including white spaces")
 ```
 - strip() can be used to remove white spaces
-```
+```Python
 print(len(white_spaces.strip()))
 print(white_spaces.strip() + " without white spaces")
 ```
 
-```
+```Python
 example_text = "here's loads of text in a TEXT string"
 ```
 
 - count() finds the number of times a specific string appears in a variable
 
-```print(example_text.count("text"))```
+```Python
+print(example_text.count("text"))
+```
 
 - lower() converts all characters into lower case
 
-```print(example_text.lower())```
+```Python
+print(example_text.lower())
+```
 
 - upper() converts all characters into upper case
 
-```print(example_text.upper())```
+```Python
+print(example_text.upper())
+```
 
 - capitalize() is used to capitalize the first letter of the string
 
-```print(example_text.capitalize())```
+```Python
+print(example_text.capitalize())
+```
 
 - replace() is used to change a specific string from within the larger one
 
-```print(example_text.replace("loads", "plenty"))```
+```Python
+print(example_text.replace("loads", "plenty"))
+```
