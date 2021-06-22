@@ -3,7 +3,7 @@
 - Python is a dynamically typed language
 
 ## Let's test the installation and environment
-##Python Basics
+## Python Basics
 
 - print() function is used to display outcome provided in the string
 ```print("Hello Raymond")```
