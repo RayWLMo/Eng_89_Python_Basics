@@ -27,16 +27,16 @@ age = 42
 print(First_Name)
 print(Last_Name)
 
-#Combined
+# Combined
 print(First_Name + ' ' + Last_Name)
-print(First_Name + ' ' + Last_Name +  ' ' + str(age), "years old")
+print(First_Name + ' ' + Last_Name + ' ' + str(age), "years old")
 
 # String Slicing and Indexing
 
 # In Python Indexing starts with 0
-           #0123456789....
+          # 0123456789....
 greeting = "Hello World!"
-                      #-1
+                     # -1
 
 # len() can be used to determine the length of the string
 print(len(greeting))

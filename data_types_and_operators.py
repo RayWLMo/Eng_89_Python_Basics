@@ -2,12 +2,12 @@
 
 # Boolean, Numbers and Strings
 
-# Operators: Arithmetic Oprators
+# Operators: Arithmetic Operators
 # '-' is used to subtract one value from another
 # '+' is used to add two (or more) values
 # '*' is used to multiply two (or more) values
 # '/' is used to divide one value from another
-# '%' is useed to give the remainder of a division (modulus)
+# '%' is used to give the remainder of a division (modulus)
 # '**' is used to give the exponential value by another value
 
 # Comparison Operators
