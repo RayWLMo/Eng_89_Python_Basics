@@ -66,7 +66,7 @@ print(age)
 print(DOB)
 
 # printing the type of each variable
-print("first_name is", type(first_name), ", last_name is", type(last_name), ", age is", type(age), ", DOB is", type(DOB))
+print("first_name:", type(first_name), ", last_name:", type(last_name), ", age:", type(age), ", DOB:", type(DOB))
 
 # Greeting the user with the information provided
 print("Hello", first_name, last_name, "! You are", age, "and were born on", DOB)
